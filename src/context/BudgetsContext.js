@@ -52,8 +52,8 @@ export const BudgetsProvider = ({ children }) => {
       value={{
         budgets,
         expenses,
-        getBudgetExpenses,
         addExpenses,
+        getBudgetExpenses,
         addBudget,
         deleteBudget,
         deleteExpense,
